@@ -50,6 +50,7 @@ def generate_results():
 			# num_likes = 0
 			# total_score = 0
 			# for each (comment, #likes) pair in comment_list:
+				# // note: #likes can be 0. laplace smoothing?
 				# total_score += #likes * model.Predict(comment)
 				# num_likes += #likes
 			# score = total_score / num_likes
